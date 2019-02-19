@@ -3,7 +3,7 @@ const bot = new Discord.Client();
 
 
 bot.on('ready', () => {
-    bot.user.setGame("Zelda Univers, https://discord.gg/gJdAfu6");
+    bot.user.setGame("Zelda Univers");
     console.log("Bot prêt !");
 });
 
